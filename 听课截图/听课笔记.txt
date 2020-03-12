@@ -1,0 +1,43 @@
+pro 一般是高级版本
+ctrl+` 调出编辑器指令窗口
+
+F:\Test\react-demo\admin-client\src\assets  彭项目
+10 browserouter 和hashirouter的区别，就是#的区别
+10 switch标签作用 表示只匹配其中一个
+10 less的使用方法
+后缀名最好用jsx
+ display: flex  表示什么呢
+
+ align-items:center 
+
+ font-size:30px 居中
+
+margin:0 15px 0 50px    分别对应，上 右 下 左;
+margin: 50px auto;上下50，左右自动
+
+const { injectBabelPlugin } = require('react-app-rewired');
+    module.exports = function override(config, env) {
+     config = injectBabelPlugin(
+               ['import', { libraryName: 'antd', libraryDirectory: 'es', style: 'css' }],
+               config,
+      );
+     return config;
+     };
+
+
+
+安装less覆盖：
+
+const { override, fixBabelImports, addLessLoader } = require('customize-cra');
+
+module.exports = override(
+  fixBabelImports('import', {
+    libraryName: 'antd',
+    libraryDirectory: 'es',
+    style: true,
+  }),
+addLessLoader({
+  javascriptEnabled: true,
+  modifyVars: { '@primary-color': '#1DA57A' },
+ }),
+);

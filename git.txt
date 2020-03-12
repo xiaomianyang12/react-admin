@@ -1,0 +1,80 @@
+初始化
+git init
+
+添加所有文件到暂存区
+git add .
+
+clear
+
+
+git commit -m '产品添加功能完成'
+
+
+在git创建一个新仓库：
+
+初始化远端仓库名字为：origin
+git remote add origin git@github.com:chenxi188/reactAdmin.git
+
+推送到远程仓库origin 的master分支：
+git push -u origin master
+
+---------------------------
+创建dev并切换到对应分支：
+git checkout -b dev
+或
+$ git branch dev
+$ git checkout dev
+或
+git switch -c dev
+
+------------------------------
+切换分支：git switch master
+显示分支：git branch
+---------------------
+把所有文件添加到暂存区 git add .
+git commit -m '分支添加'
+------------------------------------
+把dev分支推送到远端仓库：
+git push origin dev
+----------------------------
+将dev分支合并到master分支：首先要切换到master分支：git switch master
+git merge dev
+-------------------------
+把master推送到远程仓库：
+git push orign master
+======================================
+在文件夹test拉取代码：
+git clone xxxxxx
+
+进入test：cd test
+
+显示分支：git branch
+
+创建本地dev分支：git checkout -b dev origin/dev
+
+拉取dev分支： git pull origin dev
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
