@@ -1,5 +1,12 @@
+26集 8.33分报错了   22集空了再看一遍
+32集 11分
+
+复习到18集了，18集主要说github，下面开始19集预习
+
+
 pro 一般是高级版本
 ctrl+` 调出编辑器指令窗口
+ctrl+c是终止程序运行
 
 F:\Test\react-demo\admin-client\src\assets  彭项目
 10 browserouter 和hashirouter的区别，就是#的区别
@@ -42,4 +49,12 @@ addLessLoader({
  }),
 );
 
+
+
 14节课是专门说高节函数，高阶函数
+22节课：alt+<-  回去找之前的js文件
+
+在C语言中逻辑或的符号在键盘上是怎打的：回车键Enter上面的键按住shift再按两下就OK
+localstorage  相关知识
+
+搜索下‘印记中文’里面是一些比较大型的库

@@ -1,4 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+/Ìý¿Î½ØÍ¼
+git.txt
+npm start.bat
+±Ê¼Ç.md
 
 # dependencies
 /node_modules
